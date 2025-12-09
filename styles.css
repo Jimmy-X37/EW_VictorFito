@@ -1,0 +1,39 @@
+*{
+    text-align: center;
+    margin: 0 auto;
+    background-image: url(background-2400765_1280.webp);
+    background-size: 1870px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nombre{
+    color: white;
+    margin-top: 50px;
+    margin-right: 500px;
+    font-size: 20px;
+}
+
+.subtitulo{
+    color: white;
+    margin-right: 780px;
+}
+
+.cuadrado{
+    border-style: solid;
+    color: white;
+    height: 200px;
+    width: 300px;
+    background-color: white;
+}
+    
+
+
+
+
+
+
+
+
+
+
+
