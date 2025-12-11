@@ -1,39 +1,49 @@
 *{
-    text-align: center;
     margin: 0 auto;
-    background-image: url(background-2400765_1280.webp);
-    background-size: 1870px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
 }
 
-.nombre{
+.name{
     color: white;
-    margin-top: 50px;
+    font-size: 40px;
     margin-right: 500px;
-    font-size: 20px;
+    margin-top: 50px;
+    margin-left:100px;
+    margin-bottom: 100px;
 }
 
-.subtitulo{
-    color: white;
-    margin-right: 780px;
-}
 
-.cuadrado{
-    border-style: solid;
-    color: white;
-    height: 200px;
-    width: 300px;
+.actividad20{
+    border: 4px solid rgb(0, 255, 255);
     background-color: white;
+    height: 125px;
+    width: 500px;
+    text-align: center;
 }
     
+.actividad21{
+    border: 4px solid rgb(0, 255, 255);
+    background-color: white;
+    height: 125px;
+    width: 500px;
+    text-align: center;
+    margin-top: 40px;
+}
 
-
-
-
-
-
-
-
-
-
-
+.actividad22{
+    border: 4px solid rgb(0, 255, 255);
+    background-color: white;
+    height: 125px;
+    width: 500px;
+    text-align: center;
+    margin-top: 40px;
+}
+.fondo{
+     background-image: url(background-2400765_1280\ \(1\).webp);
+    background-size: 1870px;
+    width: 1870px;
+    height: 1000px;
+}
