@@ -1,0 +1,94 @@
+*{
+    margin: 0 auto;
+    font-family: "Mountains of Christmas", serif;
+}
+
+body{
+    border: 2px red dashed;
+}
+
+.titulo{
+    text-align: center;
+    color: red;
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.c1{
+    width: 400px;
+    height: 200px;
+    border: 2px red solid;
+    margin: 8px;
+    background: linear-gradient(red,green,white);
+    text-align:center;
+}
+
+h5{
+    color: white;
+    font-size: 30px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.c2{
+    width: 325px;
+    height: 200px;
+    border: 2px red solid;
+    margin: 8px;
+    padding-left: 75px;
+    background: linear-gradient( 45deg,white 0% ,red 20% 90%, white 100%);
+}
+.c3{
+    width: 400px;
+    height: 200px;
+    border: 2px red solid;
+    margin: 8px;
+    background: linear-gradient( 90deg,green 0% 30%,white 80% 100%);
+    text-align: center;
+}
+.c4{
+    width: 325px;
+    height: 200px;
+    border: 2px red solid;
+    margin: 8px;
+    padding-left: 75px;
+    background: linear-gradient(green 0% 20%,red 30% 100%);
+ 
+}
+.c5{
+    width: 400px;
+    height: 200px;
+    border: 2px red solid;
+    margin: 8px;
+    background: linear-gradient(45deg, green 0% 40%,red 40% 70%, white 70% 100%);
+}
+.c6{
+    width: 325px;
+    height: 200px;
+    border: 2px red solid;
+    margin: 8px;
+    padding-left: 75px;
+    background: linear-gradient(to right,green,white,red,green,white,red,green);
+}
+
+.contenedorlargo{
+    width: 1050px;
+    height: 150px;
+    border: 2px red solid;
+    margin: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding-left: 400px;
+    padding-right: 400px;
+    font-size: 20px;
+    
+    color: white;
+    background: linear-gradient(green 0% 10%, red 90% 100%);
+}
