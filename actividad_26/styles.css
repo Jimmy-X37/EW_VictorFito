@@ -1,0 +1,70 @@
+.fondo{
+    background-image: url(Fondo.jpg);
+    height: 300px;
+    width: 1820px;
+    margin:  0 auto;
+    margin-top: 90px;
+    overflow: hidden;
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p{
+    font-family:ballet;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 90px;
+}
+
+
+
+.texto{
+    justify-content: center;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    font-size: 20px;
+    margin-top: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+     overflow: hidden;
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+img{width: 390px;}
+
+.texto2{
+    font-size: 55px;
+    padding-left: 70px;
+    padding-top: 30px;
+}
+
+.contenedor{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.contenedor div{
+    border: 3px solid blue;
+    margin: 40px;
+    text-align: center;
+    font-size: 30px;
+    font-family: ballet;
+    margin-top: 100px;
+}
+
+.contenedor div:hover{
+    border: 3px solid yellow;
+    color: orange;
+    box-shadow: 12px 12px 8px yellow;
+    margin: 40px;
+    text-align: center;
+    font-size: 30px;
+    font-family: ballet;
+}

@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    text-align: center;
+}
+
+header{
+    padding: 20px;
+}
+
+header h1{
+    margin: 0;
+    font-size: 32px;
+}
+
+.subtitulo{
+    color: red;
+    font-size: 14px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 20px 0;
+}
+
+.menu a{
+    background-color: orange;
+    color: blue;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.categorias{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 40px 0;
+}
+
+.categoria{
+    width: 160px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+}
+
+.azul{background-color: blue;}
+.azul:hover{transform: translate(30px,20px);}
+
+.rosa{ background-color: magenta;}
+.rosa:hover{transform: translate(30px,20px);}
+
+.amarillo{ background-color: yellow; color: black;}
+.amarillo:hover{transform: translate(30px,20px);}
+
+.verde{ background-color: green;}
+.verde:hover{transform: translate(40px,20px);}
+
+.mapa iframe{
+    width: 70%;
+    height: 350px;
+    border: 3px solid orange;
+    margin: 30px 0;
+}
+
+.imagen-tienda img{
+    width: 80%;
+    margin-bottom: 40px;
+}
