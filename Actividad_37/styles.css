@@ -1,0 +1,80 @@
+*{
+font-family: forager, sans-serif;
+}
+
+.caja1{
+    border: solid;
+    border-color: orange;
+    border-width: 2px;
+    text-align: center;
+    padding: 3vw;
+    justify-content: center;
+    margin-bottom: 3vw;
+}
+
+.caja1:hover {
+    background-size: cover;
+    background-position: center;
+    background-image: url(fondo.jpg);
+
+}
+
+nav{
+    flex-direction:row;
+    justify-content: space-between;
+    display: flex;
+}
+
+a{
+    color: orange;
+    font-size: 2em;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3vw;
+}
+
+section a img{
+    width: 15vw;
+}
+
+.caja2{
+    background-color: orange;
+    margin-top: 2vw;
+    padding:1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+p{
+    font-size: 20px;
+}
+
+.caja3{
+    border: solid;
+    border-color: orange;
+    border-width: 2px;
+    text-align: center;
+    margin: 4vw;
+    padding: 1vw;
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: black;
+    }
+    h1{
+        color:orange;
+    }
+
+    .caja2{
+        color: white;
+
+    }
+
+    .caja3{
+        color: orange;
+    }
+}

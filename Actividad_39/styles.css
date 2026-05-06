@@ -1,0 +1,34 @@
+.contenedor{
+    border: 2px solid blue;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-areas:
+    "header header" 
+    "nav main"
+    "pie pie";
+}
+
+.contenedor div{
+    border: 2px solid blue;
+}
+
+.cabecera{
+    text-align: center;
+    grid-area: header;
+    color: blue;
+}
+
+.nav{
+    grid-area: nav;
+}
+
+.main{
+    grid-area: main;
+}
+
+.pie{
+    text-align: center;
+    grid-area: pie;
+    background-color: blue;
+    color: white;
+}

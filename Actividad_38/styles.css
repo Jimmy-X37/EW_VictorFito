@@ -1,0 +1,46 @@
+.contenedor{
+    background-color: green;
+     display: grid;
+     grid-template-columns: auto auto auto;
+     grid-template-rows: 30vw 30vw 30vw ;
+     margin: 4vw;
+     border: 2px solid black;
+     text-align: center;
+}
+
+.hijo1{
+    grid-row: 1/3;
+     border: 2px solid black;
+}
+
+.hijo2{
+    color: white;
+    grid-column: 2/6; 
+     border: 2px solid black;
+}
+
+.hijo3{
+    grid-column: 2/3;
+     border: 2px solid black;
+}
+
+.hijo4{
+    background-color: white;
+    grid-column: 3/4;
+     border: 2px solid black;
+}
+
+.hijo5{
+    grid-column: 4/5;
+     border: 2px solid black;
+}
+
+.hijo6{
+    grid-column: 5/6;
+     border: 2px solid black;
+}
+
+.hijo7{
+    grid-column: 1/6; 
+     border: 2px solid black;
+}
